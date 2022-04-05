@@ -60,6 +60,7 @@
   margin-top: 40px;
   color: #fff;
   margin-left: 58px;
+  cursor: pointer;
 }
 .sidebar-bottom h7 {
   font-size: 11px;
@@ -80,9 +81,10 @@
 /* header */
 .header-box {
   margin-left: 319px;
-  padding: 20px 0 0 20px;
+  padding: 20px 0 30px 20px;
   display: flex;
   justify-content: space-between;
+  border-bottom: #e2dddd solid 1px;
 }
 /* search-bar */
 
@@ -129,5 +131,78 @@
   border-radius: 12px;
   padding: 18px 38px 18px 38px;
   border: none;
+  cursor: pointer;
+}
+
+/* main section */
+
+/* Section UL and Filters */
+main {
+  margin-left: 400px;
+  margin-right: 170px;
+}
+.section-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 40px 0;
+  font-size: 16px;
+}
+.ul-wrapper ul {
+  display: flex;
+  list-style-type: none;
+}
+.ul-wrapper ul li {
+  padding: 18px 19px;
+}
+.ul-wrapper ul li:hover {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.filter-botton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  padding: 0 24px 0 24px;
+  cursor: pointer;
+}
+.filter-botton button {
+  background-color: #fff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Main content with pictures  */
+.hover-for-pics {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 20px;
+  z-index: 0;
+}
+.middle-basic-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.middle-basic-content-img {
+  border-radius: 15px;
+  z-index: 3;
+}
+.middle-basic-content-img:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.middle-basic-content h4 {
+  max-width: 298px;
+  width: 100%;
+  padding: 16px 0 90px 0;
+  color: black;
+  font-size: 18px;
   cursor: pointer;
 }
